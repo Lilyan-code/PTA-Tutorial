@@ -1,0 +1,10 @@
+a, b, c = input().split(' ')
+a = int(a)
+b = int(b)
+c = int(c)
+l = []
+l.append(a)
+l.append(b)
+l.append(c)
+l.sort()
+print('%d->%d->%d' % (l[0],l[1],l[2]))
